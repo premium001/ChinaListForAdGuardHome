@@ -6,7 +6,9 @@ on:
             - gh-pages
     schedule:
         - cron: '0 0 * * *'
-
+env:
+  TZ: Asia/Shanghai
+  
 permissions:
   contents: read
   pages: write
